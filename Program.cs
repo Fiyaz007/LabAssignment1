@@ -249,7 +249,48 @@ namespace LabAssignments1
 
             //------------------------------------
             //21
+            //Console.WriteLine("Enter a character: ");
+            //char ch = Convert.ToChar(Console.ReadLine());
 
+            //// Checking if the character ch is a vowel or not.
+            //if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E'
+            //    || ch == 'i' || ch == 'I' || ch == 'o' || ch == 'O'
+            //    || ch == 'u' || ch == 'U')
+            //{
+            //    Console.WriteLine($"The character {ch} is a vowel.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"The character {ch} is a consonant");
+            //}
+
+            //------------------------------------
+            //22
+            //Console.WriteLine("Enter a number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            ////Checking if a number is positive, negative or zero
+            //if (number > 0)
+            //    Console.WriteLine($"The number {number} is a positive number");
+            //else if (number < 0)
+            //    Console.WriteLine($"The number {number} is a negative number");
+            //else
+            //    Console.WriteLine($"The number {number} is zero");
+
+            //------------------------------------
+            //23
+            //Console.WriteLine("Enter a number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            ////Checking if a number is divisible by 5 and 11
+            //if (number % 5 == 0 && number % 11 == 0)
+            //    Console.WriteLine($"The number {number} is divisible by both 5 and 11");
+            //else
+            //    Console.WriteLine($"The number {number} is not divisible by both 5 and 11");
+
+            //------------------------------------
+            //24
+
+
+            Console.ReadLine();
         }
     }
 }
