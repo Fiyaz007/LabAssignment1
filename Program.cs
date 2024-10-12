@@ -286,9 +286,374 @@ namespace LabAssignments1
             //else
             //    Console.WriteLine($"The number {number} is not divisible by both 5 and 11");
 
-            //------------------------------------
+            //--------------------------------------------------------------------------------------
             //24
+            //Console.Write("Enter the first number: ");
+            //double num1 = Convert.ToDouble(Console.ReadLine());
 
+            //Console.Write("Enter the second number: ");
+            //double num2 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter an operator (+, -, *, /): ");
+            //char op = Convert.ToChar(Console.ReadLine());
+
+            //if (op == '+')
+            //{
+            //    Console.WriteLine($"Result: {num1} + {num2} = {num1 + num2}");
+            //}
+            //else if (op == '-')
+            //{
+            //    Console.WriteLine($"Result: {num1} - {num2} = {num1 - num2}");
+            //}
+            //else if (op == '*')
+            //{
+            //    Console.WriteLine($"Result: {num1} * {num2} = {num1 * num2}");
+            //}
+            //else if (op == '/')
+            //{
+            //    if (num2 != 0)
+            //    {
+            //        Console.WriteLine($"Result: {num1} / {num2} = {num1 / num2}");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Error: Division by zero is not allowed.");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid operator! Please enter one of the following: +, -, *, /");
+            //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //25
+            //Console.Write("Enter the student's marks (out of 100): ");
+            //int marks = Convert.ToInt32(Console.ReadLine());
+
+            //if (marks >= 0 && marks <= 100) 
+            //{
+            //    if (marks >= 90)
+            //    {
+            //        Console.WriteLine("Grade: A");
+            //    }
+            //    else if (marks >= 80)
+            //    {
+            //        Console.WriteLine("Grade: B");
+            //    }
+            //    else if (marks >= 70)
+            //    {
+            //        Console.WriteLine("Grade: C");
+            //    }
+            //    else if (marks >= 60)
+            //    {
+            //        Console.WriteLine("Grade: D");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Grade: F");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid marks! Please enter a value between 0 and 100.");
+            //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //26
+            //Console.WriteLine("Swapping using a third variable");
+            //Console.WriteLine("Enter the first number: ");
+            //int a = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Enter the second number: ");
+            //int b = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine($"Before Swap: a = {a}, b = {b}");
+
+            //int temp = a;
+            //a = b;
+            //b = temp;
+
+            //Console.WriteLine($"After Swap: a = {a}, b = {b}");
+
+
+            //Console.WriteLine("\nSwapping without using a third variable:");
+
+
+            //Console.WriteLine("Enter the first number: ");
+            //a = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Enter the second number: ");
+            //b = Convert.ToInt32(Console.ReadLine());
+
+
+            //Console.WriteLine($"Before Swap: a = {a}, b = {b}");
+
+
+            //a = a + b;
+            //b = a - b;
+            //a = a - b;
+
+
+            //Console.WriteLine($"After Swap: a = {a}, b = {b}");
+
+            //Console.ReadLine();
+
+
+            //--------------------------------------------------------------------------------------
+            //27
+            //Console.Write("Enter the first number: ");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Enter the second number: ");
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+
+            //int temp1 = num1;
+            //int temp2 = num2;
+
+            //// Perform and display arithmetic operations
+            //Console.WriteLine("\nArithmetic Operations:");
+            //// Addition
+            //int sum = num1 + num2;
+            //Console.WriteLine($"{num1} + {num2} = {sum}");
+            //// Subtraction
+            //int difference = num1 - num2;
+            //Console.WriteLine($"{num1} - {num2} = {difference}");
+            //// Multiplication
+            //int product = num1 * num2;
+            //Console.WriteLine($"{num1} * {num2} = {product}");
+            //// Division
+            //if (num2 != 0)
+            //{
+            //    double quotient = (double)num1 / num2;
+            //    Console.WriteLine($"{num1} / {num2} = {quotient}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Division by zero is not allowed.");
+            //}
+            //// Modulus (remainder)
+            //if (num2 != 0)
+            //{
+            //    int remainder = num1 % num2;
+            //    Console.WriteLine($"{num1} % {num2} = {remainder}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Modulus by zero is not allowed.");
+            //}
+            //// Increment and Decrement operations
+            //Console.WriteLine($"\nBefore Increment: num1 = {num1}, num2 = {num2}");
+            //// Incrementing num1 and num2
+            //num1++;
+            //num2++;
+            //Console.WriteLine($"After Increment: num1 = {num1}, num2 = {num2}");
+            //// Decrementing num1 and num2
+            //temp1--;
+            //temp2--;
+            //Console.WriteLine($"After Decrement: num1 = {temp1}, num2 = {temp2}");
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //28
+            //Console.Write("Enter the first number: ");
+            //double num1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter the second number: ");
+            //double num2 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter the third number: ");
+            //double num3 = Convert.ToDouble(Console.ReadLine());
+
+            //// Calculate the average
+            //double average = (num1 + num2 + num3) / 3;
+
+            //// Display the average with two decimal places
+            //Console.WriteLine($"\nThe average of {num1}, {num2}, and {num3} is: {average:F2}");
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //29
+            //double conversionRate = 0.85;
+
+            //Console.Write("Enter the amount in USD: ");
+            //double usdAmount = Convert.ToDouble(Console.ReadLine());
+
+            //double eurAmount = usdAmount * conversionRate;
+
+            //Console.WriteLine($"\n{usdAmount} USD is equivalent to {eurAmount:F2} EUR.");
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //30
+            //Console.Write("Enter a number: ");
+            //int num = Convert.ToInt32(Console.ReadLine());
+
+            //if (num >= 1 && num <= 100)
+            //{
+            //        if (num % 2 == 0)
+            //        {
+            //            Console.WriteLine($"{num} is an even number.");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine($"{num} is an odd number.");
+            //        }
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"The number is not within the range.");
+            //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //31
+            //Console.Write("Enter a number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+
+            //if (number % 3 == 0 && number % 5 != 0)
+            //{
+            //    Console.WriteLine($"{number} is divisible by 3 but not by 5.");
+            //}
+            //else if (number % 5 == 0 && number % 3 != 0)
+            //{
+            //    Console.WriteLine($"{number} is divisible by 5 but not by 3.");
+            //}
+            //else if (number % 3 == 0 && number % 5 == 0)
+            //{
+            //    Console.WriteLine($"{number} is divisible by both 3 and 5.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{number} is not divisible by both 3 and 5.");
+            //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //32
+            //Console.WriteLine("Enter the year");
+            //int year = Convert.ToInt32(Console.ReadLine());
+
+            //if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+            //{
+            //    Console.WriteLine($"{year} is a leap year");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{year} is not a leap year");
+            //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //33
+            //Console.Write("Enter a number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+
+            //// Check if the number is positive
+            //if (number > 0)
+            //{
+            //    Console.WriteLine($"{number} is positive.");
+
+            //    // Check if the number is greater than 50
+            //    if (number > 50)
+            //    {
+            //        Console.WriteLine($"{number} is greater than 50.");
+
+            //        // Check if the number is even
+            //        if (number % 2 == 0)
+            //        {
+            //            Console.WriteLine($"{number} is even.");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine($"{number} is odd.");
+            //        }
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{number} is not greater than 50.");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{number} is not positive.");
+            //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //34
+            //int subject1, subject2, subject3;
+            //int passmark = 40;
+            //int totalsubjects = 3;
+
+            //Console.WriteLine("Enter the marks for three subjects:");
+
+            //Console.Write("Subject 1: ");
+            //subject1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Subject 2: ");
+            //subject2 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Subject 3: ");
+            //subject3 = Convert.ToInt32(Console.ReadLine());
+
+            //bool allpassed = (subject1 >= passmark && subject2 >= passmark && subject3 >= passmark);
+            //if(allpassed)
+            //{
+            //    double average = (subject1 + subject2 + subject3)/(double)totalsubjects;
+
+            //    if(average >= 70)
+            //    {
+            //        Console.WriteLine("The student has passed in all subjects with Distinction.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("The student has passed in all subjects but did not achieve Distinction.");
+            //    }
+            //}
+            //else
+            //{
+            //    int failedsubjects = 0;
+            //    if (subject1 < passmark) failedsubjects++;
+            //    if (subject2 < passmark) failedsubjects++;
+            //    if (subject3 < passmark) failedsubjects++;
+
+            //    Console.WriteLine($"The student has failed in {failedsubjects} subjects.");
+            //}
+            //Console.ReadLine();
+
+            //--------------------------------------------------------------------------------------
+            //35
+            Console.Write("Enter your annual salary: ");
+            double salary = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            // Variable to store taxable income
+            double taxableIncome = salary;
+            // Check if the employee is a senior citizen (60 or above)
+            if (age >= 60)
+            {
+                // Provide additional tax exemption for senior citizens
+                taxableIncome -= 5000;
+            }
+            // Initialize tax variable
+            double tax = 0;
+            // Calculate tax based on the taxable income
+            if (taxableIncome < 10000)
+            {
+                tax = 0; // No tax
+            }
+            else if (taxableIncome >= 10000 && taxableIncome <= 50000)
+            {
+                tax = taxableIncome * 0.10; // 10% tax
+            }
+            else // taxableIncome > 50000
+            {
+                tax = taxableIncome * 0.20; // 20% tax
+            }
+            // Print the tax amount to be paid
+            Console.WriteLine($"The tax to be paid is: {tax:F2}");
 
             Console.ReadLine();
         }
